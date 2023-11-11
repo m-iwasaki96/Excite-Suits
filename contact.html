@@ -101,31 +101,31 @@
                 当店へのお問い合わせは下記フォームより受け付けております。<br class="md-none" />
                 担当者が確認後、折り返しご連絡させていただきます。
               </p>
-              <form class="contactPage__form form" action="">
+              <form class="contactPage__form form" action="mail.php" method="POST">
                 <dl class="form__wrap">
                   <dt class="form__label">お名前<span>*</span></dt>
                   <dd class="form__input form-input">
-                    <input type="text" placeholder="仕立 一郎" />
+                    <input type="text" placeholder="仕立 一郎" name="お名前" />
                   </dd>
                 </dl>
                 <dl class="form__wrap">
                   <dt class="form__label">メールアドレス<span>*</span></dt>
                   <dd class="form__input form-input">
-                    <input type="email" placeholder="excitecode@suit.co.jp" />
+                    <input type="email" placeholder="excitecode@suit.co.jp" name="メールアドレス" />
                   </dd>
                 </dl>
                 <dl class="form__wrap">
                   <dt class="form__label">お問い合わせの種類<span>*</span></dt>
                   <dd class="form__radio form-radio">
-                    <label><input type="radio" name="category" value="オーダーメイドスーツ" /><span>オーダーメイドスーツ</span></label>
-                    <label><input type="radio" name="category" value="スーツ以外のアイテム" /><span>スーツ以外のアイテム</span></label>
-                    <label><input type="radio" name="category" value="その他" /><span>その他</span></label>
+                    <label><input type="radio" name="お問い合わせの種類" value="オーダーメイドスーツ" /><span>オーダーメイドスーツ</span></label>
+                    <label><input type="radio" name="お問い合わせの種類" value="スーツ以外のアイテム" /><span>スーツ以外のアイテム</span></label>
+                    <label><input type="radio" name="お問い合わせの種類" value="その他" /><span>その他</span></label>
                   </dd>
                 </dl>
                 <dl class="form__wrap form__wrap--textarea">
                   <dt class="form__label">お問い合わせ内容<span>*</span></dt>
                   <dd class="form__textarea form-textarea">
-                    <textarea name="message" placeholder="入力してください"></textarea>
+                    <textarea placeholder="入力してください" name="お問い合わせ内容"></textarea>
                   </dd>
                 </dl>
                 <div class="form__submit form-submit">
