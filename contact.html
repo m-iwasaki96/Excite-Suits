@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- meta情報 -->
+    <title>ExciteCode</title>
+    <meta name="description" content="ExciteCodeは、伝統あるテーラーだからできる、芯地や裏地など、細部へこだわります。わたしたちはワンランク上のオーダースーツをお約束します。" />
+    <meta name="keywords" content="ExciteCode,オーダーメイドスーツ,ネクタイ" />
+    <!-- ogp -->
+    <meta property="og:title" content="ExciteCode" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http:..hogehoge.com" />
+    <meta property="og:image" content="http://hogehoge.com/images/ogp-img.jpg" />
+    <meta property="og:site_name" content="ExciteCode" />
+    <meta property="og:description" content="ExciteCodeは、伝統あるテーラーだからできる、芯地や裏地など、細部へこだわります。わたしたちはワンランク上のオーダースーツをお約束します。" />
+    <meta name="twitter:card" content="summary" />
+    <!-- ファビコン -->
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" sizes="180x180" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Noto+Sans+JP:wght@400;500&family=Noto+Serif+JP:wght@300;400&family=Roboto&display=swap" rel="stylesheet" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="/js/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header class="header js-header">
+        <div class="header__inner">
+          <h1 class="header__name">
+            <a href="./index.html">
+              <img class="header__logo" src="/images/header-logo.svg" alt="ヘッダーロゴ" />
+            </a>
+          </h1>
+          <div class="header__nav md-none">
+            <ul class="header__items">
+              <li class="header__item">
+                <a href="./about.html">About</a>
+              </li>
+              <li class="header__item">
+                <a href="./index.html#service">Service</a>
+              </li>
+              <li class="header__item">
+                <a href="./index.html#news">News</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__contact-btn button md-none">
+            <a href="./contact.html" class="">Contact</a>
+          </div>
+        </div>
+        <div class="hamburger js-hamburger md-show">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="drawer-menu js-drawer">
+          <div class="drawer-menu__inner">
+            <ul class="drawer-menu__items">
+              <li class="drawer-menu__item">
+                <a href="./about.html">About</a>
+              </li>
+              <li class="drawer-menu__item">
+                <a href="./index.html#service">Service</a>
+              </li>
+              <li class="drawer-menu__item">
+                <a href="./index.html#news">News</a>
+              </li>
+            </ul>
+            <div class="drawer-menu__contact">
+              <a href="./contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="contactPage-mv lowerPage-mv">
+          <div class="lowerPage-mv__inner">
+            <p class="lowerPage-mv__title">Contact</p>
+          </div>
+        </div>
+        <!-- お問い合わせフォーム -->
+        <div class="contactPage-body">
+          <div class="contactPage-body__inner inner">
+            <div class="contactPage-body__content">
+              <p class="contactPage-body__text">
+                当店へのお問い合わせは下記フォームより受け付けております。<br class="md-none" />
+                担当者が確認後、折り返しご連絡させていただきます。
+              </p>
+              <form class="contactPage__form form" action="">
+                <dl class="form__wrap">
+                  <dt class="form__label">お名前<span>*</span></dt>
+                  <dd class="form__input form-input">
+                    <input type="text" placeholder="仕立 一郎" />
+                  </dd>
+                </dl>
+                <dl class="form__wrap">
+                  <dt class="form__label">メールアドレス<span>*</span></dt>
+                  <dd class="form__input form-input">
+                    <input type="email" placeholder="excitecode@suit.co.jp" />
+                  </dd>
+                </dl>
+                <dl class="form__wrap">
+                  <dt class="form__label">お問い合わせの種類<span>*</span></dt>
+                  <dd class="form__radio form-radio">
+                    <label><input type="radio" name="category" value="オーダーメイドスーツ" /><span>オーダーメイドスーツ</span></label>
+                    <label><input type="radio" name="category" value="スーツ以外のアイテム" /><span>スーツ以外のアイテム</span></label>
+                    <label><input type="radio" name="category" value="その他" /><span>その他</span></label>
+                  </dd>
+                </dl>
+                <dl class="form__wrap form__wrap--textarea">
+                  <dt class="form__label">お問い合わせ内容<span>*</span></dt>
+                  <dd class="form__textarea form-textarea">
+                    <textarea name="message" placeholder="入力してください"></textarea>
+                  </dd>
+                </dl>
+                <div class="form__submit form-submit">
+                  <input type="submit" value="送信" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <small class="footer__copyright">&copy;ExciteCode&nbsp;all&nbsp;rights&nbsp;reserved</small>
+      </footer>
+    </div>
+  </body>
+</html>
